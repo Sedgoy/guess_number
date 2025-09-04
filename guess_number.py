@@ -1,8 +1,9 @@
-welcome_text = 'Угадай'
 from random import randint
+welcome_text = 'Угадай'
 
 rand = randint(1, 101)
 print('Угадайте число от 1 до 100')
+
 
 def main():
     while True:
@@ -15,7 +16,6 @@ def main():
         elif (user_number == rand):
             print('Отличная интуиция! Вы угадали число:)')
             break
-
 
 
 main()
