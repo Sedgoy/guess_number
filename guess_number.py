@@ -12,7 +12,7 @@ def main():
 
         elif (user_number > rand):
             print('Ваше число больше того, что загадано')
-        else:
+        elif (user_number == rand):
             print('Отличная интуиция! Вы угадали число:)')
             break
 
